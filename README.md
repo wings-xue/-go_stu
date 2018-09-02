@@ -11,3 +11,9 @@
 ### go get 添加代理
 export http_proxy=http://127.0.0.1:1080
 go get golang.org/xxx
+
+
+### 另一种方法
+mkdir -p $GOPATH/src/golang.org/x
+cd $GOPATH/src/golang.org/x
+git clone https://github.com/golang/net.git
