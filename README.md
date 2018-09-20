@@ -42,6 +42,10 @@ serverSlots1 = 32
 # 重启polipo
 /etc/init.d/polipo restart
 # 设置代理
-export http_proxy="http://127.0.0.1:8123/"
-export https_proxy="http://127.0.0.1:8123/"
+启动cow
+cow 文档
+https://github.com/cyfdecyf/cow
+设置curl代理
+export http_proxy=http://127.0.0.1:7777
+export https_proxy=http://127.0.0.1:7777
 ```
