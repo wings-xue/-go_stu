@@ -48,4 +48,18 @@ https://github.com/cyfdecyf/cow
 设置curl代理
 export http_proxy=http://127.0.0.1:7777
 export https_proxy=http://127.0.0.1:7777
+
+"go.delveConfig": {
+  "useApiV1": false,
+  "dlvLoadConfig": {
+    "followPointers": true,
+    "maxVariableRecurse": 3,
+    "maxStringLen": 400,
+    "maxArrayValues": 400,
+    "maxStructFields": -1
+  }
+}
+
+https://itnext.io/golang-bits-better-debugging-in-vscode-599bc5b018da
+vscode debug config
 ```
